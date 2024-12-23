@@ -108,3 +108,4 @@ header .emblem {
 .counter li a::before {
   content: "0" counter(menu) " ";
 }/*# sourceMappingURL=style.css.map */
+.counter li li a::before{content: counter(menu,".")" ";}
